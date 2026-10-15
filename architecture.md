@@ -10,7 +10,7 @@ computer using Canonical Multipass.
 ## Components
 
 ### Web Server
-Hostname: web-server
+Hostname: web-server\n
 Purpose: Hosts internal web applications
 Planned software: Nginx, Docker
 
