@@ -12,26 +12,26 @@ computer using Canonical Multipass.\
 ### Web Server
 Hostname: web-server\
 Purpose: Hosts internal web applications\
-Planned software: Nginx, Docker\
+Planned software: Nginx, Docker
 
 ### Database Server
 Hostname: db-server\
 Purpose: Stores application data\
-Planned software: PostgreSQL\
+Planned software: PostgreSQL
 
 ### Monitoring Server
 Hostname: monitor-server\
 Purpose: Monitors the infrastructure\
-Planned software: Prometheus, Grafana\
+Planned software: Prometheus, Grafana
 
 ### Automation Server
 Hostname: automation-server\
 Purpose: Automates administration tasks\
-Planned software: Ansible, Python\
+Planned software: Ansible, Python
 
 ## Network Design
 All four virtual machines use the Multipass
-virtual network.\
+virtual network.
 
 The instances communicate using their assigned
 private IPv4 addresses.
